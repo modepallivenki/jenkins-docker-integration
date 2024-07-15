@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: jenkins-docker-integration
-        image: jenkins-docker-integration:1.0
+        image: modepallivenki/jenkins-docker-integration
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
